@@ -1,19 +1,5 @@
 # GitHub Workflows — macOS Menu Bar App
 
-A native macOS menu bar app (SwiftUI `MenuBarExtra`) that signs in with GitHub
-(**OAuth Device Flow**) and shows your **running GitHub Actions workflows** across all
-your repositories — with live per-run job progress bars.
-
-- 🔐 One-click "Sign in with GitHub" — no tokens to paste (token stored in the **Keychain**)
-- ⚙️ **Glanceable menu-bar icon**: running count, ⚠️ failure indicator, or ✓ all-clear — no need to open anything
-- 📡 **Streaming refresh** with a live status line ("Scanned 12/40 repos · 2 active") — runs appear instantly, details fill in
-- 📊 **Expandable runs** showing each job and the exact **step currently running** (e.g. "Run build · step 3/7")
-- ✅❌ **Recently finished** section with color-coded pass/fail/cancelled states
-- 🔔 **Desktop notifications** when workflows finish (optionally failures-only)
-- 🔄 Auto-refresh (configurable 10–120s); click any run to open it on GitHub
-- 🚀 Launch at login, Preferences pane, native app icon
-- 🪶 Menu-bar-only (no Dock icon), fixed-size popover (no resize flicker)
-
 ---
 
 ## For end users
